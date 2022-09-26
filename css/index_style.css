@@ -1,44 +1,47 @@
-.banner {
+div.banner {
+    display: flex;
     max-width: 100%;
+    padding: 10px 0;
     position: relative;
     text-align: center;
+    vertical-align: middle;
     width: 100%;
+    justify-content: center;
 }
 .banner img {
     max-width: 100%;
     max-width: 500px;
     width: 100%;
+    height: 100%;
 }
+
+.banner section{
+    padding: 140px;
+    
+} 
+
 
 div p {
     font-size: 1.2em;
     text-align: center;
-}
+} 
 
-@media screen and (min-width: 700px){
+@media screen and (max-width: 860px){
 
-    div {
+    div.banner {
+        display: block;
         text-align: center;
     }
 
-    div section{
-        display: inline-block;
-        max-width: 40%;
+    .banner img{
         text-align: center;
-    }
-
-    section{
-        display: inline-block;
-    }
-
-    .banner img {
         max-width: 100%;
         max-width: 500px;
-        width: 100%;
-    }
-    
-    span{
-        font-size: 30px;
+        max-height: 500px;
     }
 
+    .banner section{
+        padding: 0px;
+        
+    } 
 }
