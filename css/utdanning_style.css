@@ -1,0 +1,17 @@
+div {
+    text-align: center;
+}
+
+div li {
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: block;
+    font-size: 1.7em;
+    margin: 5px;
+    padding: 2px;
+}
+div li a {
+    color: black;
+    text-decoration: none;
+}

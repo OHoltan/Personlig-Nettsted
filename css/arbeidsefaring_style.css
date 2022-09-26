@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+p {
+    padding: 2px;
+}
+
+div {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+
+div {
+    display: inline-block;
+    max-width: 100%;
+}
+
+div img {
+    max-width: 50%;
+}

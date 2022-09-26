@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+body{
+    font-family: arial;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+header {
+    background-color: #4f48b8;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1 {
+    border: 8px solid white;
+    border-radius:  36px;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+nav{
+    background-color: gray;
+    display: block;
+    max-width: 1500px;
+    padding: 4px 0;
+    position: sticky;
+    position: -webkit-sticky; /* for safari compat */
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+footer {
+    background: gray;
+    bottom: 0;
+    color: white;
+    display: table-row;
+    height: 0;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px 10px;
+    position: static;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a{
+    align-self: auto;
+    border: solid #757575 5px;
+    border-radius: 5px;
+    background-color: #a4a4a4;
+    color: black;
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: bolder;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.selected-page {
+ background-color: #676767;
+}
+
+.navbar a:focus {
+    text-decoration: underline;
+}
+.navbar a:hover {
+    border: solid #565656 5px;
+}
+
+
