@@ -1,5 +1,6 @@
 img {
     max-width: 100%;
+    max-width: 1200px;
     width: 100%;
 }
 
@@ -30,4 +31,15 @@ div section a {
 
 p {
     padding: 2px;
+}
+
+@media screen and (min-width: 700px){
+
+    h2{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
 }

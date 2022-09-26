@@ -1,5 +1,6 @@
 img {
     max-width: 100%;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -11,13 +12,13 @@ div {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 700px){
 
-div {
-    display: inline-block;
-    max-width: 100%;
-}
+    h1{
+        font-size: 3em;
+    }
 
-div img {
-    max-width: 50%;
+    p{
+        font-size: 1.3em;
+    }
 }

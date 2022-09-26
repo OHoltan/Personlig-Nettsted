@@ -1,20 +1,44 @@
 .banner {
-    position: relative;
-    width: 100%;
     max-width: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 .banner img {
     max-width: 100%;
+    max-width: 500px;
     width: 100%;
 }
-.banner .welcome {
-    background-color: #969696;
-    color: white;
-    padding: 30px;
-    position: absolute;
-    top: 0;
-    top: 30%;
+
+div p {
+    font-size: 1.2em;
+    text-align: center;
 }
-.banner h2 {
-    font-size: 40px;
+
+@media screen and (min-width: 700px){
+
+    div {
+        text-align: center;
+    }
+
+    div section{
+        display: inline-block;
+        max-width: 40%;
+        text-align: center;
+    }
+
+    section{
+        display: inline-block;
+    }
+
+    .banner img {
+        max-width: 100%;
+        max-width: 500px;
+        width: 100%;
+    }
+    
+    span{
+        font-size: 30px;
+    }
+
 }

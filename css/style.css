@@ -25,7 +25,7 @@ header {
 }
 header h1 {
     border: 8px solid white;
-    border-radius:  36px;
+    border-radius:  20px;
     color: white;
     display: inline-block;
     padding: 6px 12px;
@@ -34,7 +34,7 @@ header h1 {
 nav{
     background-color: gray;
     display: block;
-    max-width: 1500px;
+    max-width: 100%;
     padding: 4px 0;
     position: sticky;
     position: -webkit-sticky; /* for safari compat */
@@ -50,27 +50,28 @@ footer {
     bottom: 0;
     color: white;
     display: table-row;
-    height: 0;
+    height: 75px;
     max-width: 100%;
-    margin: 10px;
-    padding: 10px 10px;
+    padding: 10px;
     position: static;
     text-align: center;
     width: 100%;
 }
 
+footer li {
+    padding-top: 5px;
+}
+
 .navbar a{
-    align-self: auto;
     border: solid #757575 5px;
     border-radius: 5px;
     background-color: #a4a4a4;
     color: black;
     display: inline-block;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bolder;
     padding: 3px;
     text-align: center;
-    text-decoration: none;
 }
 
 .selected-page {
@@ -84,4 +85,15 @@ footer {
     border: solid #565656 5px;
 }
 
+@media screen and (min-width: 700px){
 
+    header{
+        font-size: 1.4em;
+    }
+
+    nav {
+        font-size: 1.7em;
+    }
+
+
+}
