@@ -75,7 +75,7 @@ footer li {
     text-align: center;
 }
 
-.selected-page {
+nav .selected-page {
  background-color: #676767;
 }
 
